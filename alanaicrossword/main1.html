@@ -4,15 +4,18 @@
  <meta charset="utf-8">
 </html>
 <head>
+	<br><br>
+	<!--Preloader-->
+	
 	<div class="starter">
 	<title>CrosswordGame</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-	<script type="text/javascript" src="jquery.js"></script>
+	<script src="jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<br><br>
 	<html>
 <head>
-	<div id="new-header">
+		<div id="new-header">
         <script>
             $("#new-header").load("header.html");
         </script>
@@ -43,10 +46,9 @@
 	<div class="nav-area">
 		<ul class="nav-area">
 			
-		<li><a href="https://youtu.be/jhk26Dg1Mvg">Good motivational songs</a></li>
-		<li><a href="https://www.canva.com/design/DAEkY-Icp4M/nPebgUWwDTeVaV85g0yLTQ/view?utm_content=DAEkY-Icp4M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">About Us</a></li>
-		<li><a href="https://www.youtube.com/results?search_query=good+videos+on+3D+modeling+on+onshape">Videos on how to do 3D modeling</a>
-		</div>
+		<li><a href="../welcome/triviagame.html">Trivia Game</a></li>
+		<li><a href="../welcome/test.html.html">welcome page</a></li>
+	</div>
 	<h1>3D Carousel</h1>
 
 <div class="carousel_wrapper">
@@ -143,29 +145,7 @@ SUN IMAGE HERE: https://chivethebrigade.files.wordpress.com/2012/03/sun-920-32.j
 </head>
 <!--Date-->
 <br><br>
-<div class="Date">
-<div style  color:#00BFFF;>
-<script type="text/javascript">
-	// START DATE SCRIPT
-	
-	var showdate	= "yes"  	// SHOW THE DATE | yes | no |
-	
-	   if (showdate == "yes") {
-	document.write('<div id="date-location">');
-	var d=new Date();
-	var weekday=new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
-	var monthname=new Array('January','February','March','April','May','June','July','August','September','October','November','December');
-	document.write('<span class="date-font">' + weekday[d.getDay()] + ' ');
-	document.write(monthname[d.getMonth()] + ' ');
-	document.write(d.getDate() + '. ');
-	document.write(d.getFullYear())
-	document.write('<br></span>')
-	document.write('</div>');
-	}
-	</script>
-	</div>
-	<br><br>
-	<div class="Timer">
+<div class="Timer">
 	<div style= background:url(https://th.bing.com/th/id/OIP.5y1OKwwUxNp4sf7SKTpnCQHaFj?pid=ImgDet&rs=1); float:left; text-align:left; font-family:poppins; font-size:14px;> 
 	<h3>WE HAVE IMPLEMENTED A COUNTDOWN TIMER WHERE YOU GUYS COULD PUT THE TIME THAT IS THE MOST COMFORTABLE FOR YOU TO FINISH THE CROSSWORD GAME. 
 	GAME. YOU GUYS COULD ALSO PUT LESS TIME TO CHALLENGE YOURSELVES WHEN PLAYING THE GAME. 
@@ -192,7 +172,6 @@ SUN IMAGE HERE: https://chivethebrigade.files.wordpress.com/2012/03/sun-920-32.j
 * {
 margin:0px;
 }
-
 		body {
 			font-family: Roboto;
 			padding-top: 50px;
@@ -641,11 +620,9 @@ background: #fff;
 color:#333;
 }
 
-
-}
-
- </style>
-	<!--Crossword Game Code-->
+</style>
+	
+<!--Crossword Game Code-->
 	<br>
 	<script src="crossword.js"></script>
 	<script src="ttss.js"></script>
@@ -750,6 +727,7 @@ color:#333;
 		</table>
 
 		<button onclick="toggleAnswer()"><i class="fa fa-eye"></i> Toggle Answer</button>
+		<button onclick="endgame()"><i class="fo fo-eye"></i>End Game</button>
 		<button onclick="location.reload()"><i class="fa fa-refresh"></i> Randomize</button>
 
 		<div id="vkeyboard">
@@ -1110,10 +1088,9 @@ color:black;
 </style>
 <ul class="nav-area">
 	<strong>
-	<li><a href="https://www.canva.com/design/DAEkY2Z_6Io/TvU0AuM-G4yKWYg1aa6s0A/view?utm_content=DAEkY2Z_6Io&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Terms and Conditions</a></li>
-	</strong>
+	<li><a href="../welcome/terms.html">Terms and Conditions</a></li>	
+</strong>
 	</ul>
 	</div>
 </div>
-</body>
 </html>
