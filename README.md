@@ -1,4 +1,6 @@
 # HTML5 Crossword Puzzle Game
+Co-founders of this game- Harsh Sheth and Devarsh Jayakrishnan
+
 An Open Source HTML5 Crossword Puzzle Game based on Crossword.js that you can use it for your project, just change the word list in ttss.js file.
 
 You can randomize words to play with, toggle to show or hide correct answers, and more.
@@ -12,6 +14,9 @@ To fill the crossword, I know it's little bit strange, that you must click any b
 Watch the demo video here: https://www.youtube.com/watch?v=W6eiVQd_W08
 
 Original crossword libary used in this project is here: https://github.com/dwmkerr/crosswords-js
+
+A few steps and you will get to see our full game: 
+Find the test.html.html file and once you find it click on it. Then copy paste this- ssharsh.github.io/blob/main/test.html.html. After that cut out /blob/main that and press enter. Once you load in, you could go through the whole welcome page and also the game, about us, and welcome page. On the other hand, when you get to the game, you could play the trivia game and also go back to the welcome page. 
 
 Alan AI voice commands: 
 // Use this sample to create your own voice commands
